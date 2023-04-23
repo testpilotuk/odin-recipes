@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head >
-        <!-- META tags -->
-        <meta charset="utf-8">
 
-        <!--- Instructions for web scrapers --->
-        <meta name="robots" content="index, follow">
-        <meta name="description" content="Cheap, quick and easy food recipes">
-        <meta name="author" content="Chris Sutcliffe">
+<head>
+    <!-- META tags -->
+    <meta charset="utf-8">
 
-        <!-- display on mobile devices -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--- Instructions for web scrapers --->
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Cheap, quick and easy food recipes">
+    <meta name="author" content="Chris Sutcliffe">
 
-        <!-- link to the stylesheet(s) -->
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <!-- title displayed in browser tab -->
-        <title>Odin Recipes</title>
-    </head>
-    <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-        <li><a href="recipes/banh-xeo.html">Bánh Xèo (Vietnamese Crêpes)</a></li>
-        <li><a href="recipes/baked-ham-hock-pots.html">Backed Ham Hock Pots</a></li>
-        <li><a href="recipes/homemade-apple-pie.html">Homemade Apple Pie</a></li>
-        </ul>
-    </body>
+    <!-- display on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link to the stylesheet(s) -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- title displayed in browser tab -->
+    <title>Odin Recipes</title>
+</head>
+
+<body>
+    <main>
+        <h1>The Recipe Site</h1>
+        <div class="hero-wrapper">
+            <h2 class="nav-header">Recipes</h2>
+            <div class="hero-container flex">
+                <nav>
+                    <ul class="hero-nav flex">
+                        <li><a class="nav-links" href="recipes/banh-xeo.html">Bánh Xèo (Vietnamese Crêpes)</a></li>
+                        <li><a class="nav-links" href="recipes/baked-ham-hock-pots.html">Baked Ham Hock Pots</a></li>
+                        <li><a class="nav-links" href="recipes/homemade-apple-pie.html">Homemade Apple Pie</a></li>
+                    </ul>
+                </nav>
+                <figure class="photo-frame">
+                    <img src="images/andy-chilton-0JFveX0c778-unsplash.jpg" alt="Photo of Cooking ingredients">
+                    <figcaption>Photo by <a
+                            href="https://unsplash.com/@andyc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andy
+                            Chilton</a> on <a
+                            href="https://unsplash.com/s/photos/cooking-class?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
     <footer>
     </footer>
+</body>
+
 </html>

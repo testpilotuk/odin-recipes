@@ -1,0 +1,71 @@
+/* theodinproject Recipe Site Project */
+:root {
+    --site-white: #f5f6f7;
+    --site-black: #323232;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font: 1.6rem Arial, sans-serif;
+    background-color: var(--site-white);
+    color: var(--site-black);
+}
+
+h1 {
+    font: bold 3rem Verdana, sans-serif;
+}
+
+h2 {
+    font: bold 2.4rem Verdana, sans-serif;
+}
+
+p {
+    max-width: 60ch;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.hero-nav {
+    list-style: none;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 0;
+}
+
+.nav-header {
+    margin-bottom: 0;
+}
+
+.photo-frame {
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: bold 1.6rem Arial, sans-serif;
+    color: var(--site-black);
+}
+
+.nav-links:hover {
+    text-decoration: underline 4px;
+}
