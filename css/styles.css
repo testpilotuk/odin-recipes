@@ -29,7 +29,6 @@ p {
 
 img {
     max-width: 100%;
-    object-fit: cover;
 }
 
 figcaption {
@@ -54,6 +53,7 @@ figcaption {
 }
 
 .photo-frame {
+    max-width: 600px;
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
